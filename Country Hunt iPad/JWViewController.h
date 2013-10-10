@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JWViewController : UIViewController
-
+@interface JWViewController : UISplitViewController
+-(id)init;
+-(id)initWithCoder:(NSCoder *)aDecoder;
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 @end

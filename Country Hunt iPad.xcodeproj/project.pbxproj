@@ -21,6 +21,30 @@
 		365AC58718076993008A5413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365AC56918076993008A5413 /* UIKit.framework */; };
 		365AC58F18076993008A5413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 365AC58D18076993008A5413 /* InfoPlist.strings */; };
 		365AC59118076993008A5413 /* Country_Hunt_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC59018076993008A5413 /* Country_Hunt_iPadTests.m */; };
+		365AC5F418076A15008A5413 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 365AC5A418076A15008A5413 /* Default.png */; };
+		365AC5F518076A15008A5413 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 365AC5A518076A15008A5413 /* Default@2x.png */; };
+		365AC5F718076A15008A5413 /* JWViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365AC5A818076A15008A5413 /* JWViewController1.xib */; };
+		365AC5FA18076A15008A5413 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5AE18076A15008A5413 /* iToast.m */; };
+		365AC5FC18076A15008A5413 /* JWCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5B218076A15008A5413 /* JWCountry.m */; };
+		365AC5FD18076A15008A5413 /* JWGeoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5B418076A15008A5413 /* JWGeoGame.m */; };
+		365AC5FE18076A15008A5413 /* JWViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5B618076A15008A5413 /* JWViewController1.m */; };
+		365AC60A18076A15008A5413 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5D018076A15008A5413 /* AbstractActionSheetPicker.m */; };
+		365AC60B18076A15008A5413 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5D218076A15008A5413 /* ActionSheetCustomPicker.m */; };
+		365AC60C18076A15008A5413 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5D518076A15008A5413 /* ActionSheetDatePicker.m */; };
+		365AC60D18076A15008A5413 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5D718076A15008A5413 /* ActionSheetDistancePicker.m */; };
+		365AC60E18076A15008A5413 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5D918076A15008A5413 /* ActionSheetStringPicker.m */; };
+		365AC60F18076A15008A5413 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5DB18076A15008A5413 /* DistancePickerView.m */; };
+		365AC61018076A15008A5413 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5DE18076A15008A5413 /* SBJsonParser.m */; };
+		365AC61118076A15008A5413 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5E018076A15008A5413 /* SBJsonStreamParser.m */; };
+		365AC61218076A15008A5413 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5E218076A15008A5413 /* SBJsonStreamParserAccumulator.m */; };
+		365AC61318076A15008A5413 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5E418076A15008A5413 /* SBJsonStreamParserAdapter.m */; };
+		365AC61418076A15008A5413 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5E618076A15008A5413 /* SBJsonStreamParserState.m */; };
+		365AC61518076A15008A5413 /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5E818076A15008A5413 /* SBJsonStreamTokeniser.m */; };
+		365AC61618076A15008A5413 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5EA18076A15008A5413 /* SBJsonStreamWriter.m */; };
+		365AC61718076A15008A5413 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5EC18076A15008A5413 /* SBJsonStreamWriterAccumulator.m */; };
+		365AC61818076A15008A5413 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5EE18076A15008A5413 /* SBJsonStreamWriterState.m */; };
+		365AC61918076A15008A5413 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5F018076A15008A5413 /* SBJsonWriter.m */; };
+		365AC61A18076A15008A5413 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 365AC5F218076A15008A5413 /* TPKeyboardAvoidingTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +77,54 @@
 		365AC58C18076993008A5413 /* Country Hunt iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Country Hunt iPadTests-Info.plist"; sourceTree = "<group>"; };
 		365AC58E18076993008A5413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		365AC59018076993008A5413 /* Country_Hunt_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country_Hunt_iPadTests.m; sourceTree = "<group>"; };
+		365AC5A118076A15008A5413 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		365AC5A418076A15008A5413 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		365AC5A518076A15008A5413 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		365AC5A918076A15008A5413 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JWViewController1.xib; sourceTree = "<group>"; };
+		365AC5AD18076A15008A5413 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		365AC5AE18076A15008A5413 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		365AC5B118076A15008A5413 /* JWCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCountry.h; sourceTree = "<group>"; };
+		365AC5B218076A15008A5413 /* JWCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCountry.m; sourceTree = "<group>"; };
+		365AC5B318076A15008A5413 /* JWGeoGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGeoGame.h; sourceTree = "<group>"; };
+		365AC5B418076A15008A5413 /* JWGeoGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGeoGame.m; sourceTree = "<group>"; };
+		365AC5B518076A15008A5413 /* JWViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWViewController1.h; sourceTree = "<group>"; };
+		365AC5B618076A15008A5413 /* JWViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWViewController1.m; sourceTree = "<group>"; };
+		365AC5CF18076A15008A5413 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		365AC5D018076A15008A5413 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		365AC5D118076A15008A5413 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		365AC5D218076A15008A5413 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		365AC5D318076A15008A5413 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		365AC5D418076A15008A5413 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		365AC5D518076A15008A5413 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		365AC5D618076A15008A5413 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		365AC5D718076A15008A5413 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		365AC5D818076A15008A5413 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		365AC5D918076A15008A5413 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		365AC5DA18076A15008A5413 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		365AC5DB18076A15008A5413 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		365AC5DC18076A15008A5413 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = ../SBJson.h; sourceTree = "<group>"; };
+		365AC5DD18076A15008A5413 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = ../SBJsonParser.h; sourceTree = "<group>"; };
+		365AC5DE18076A15008A5413 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = ../SBJsonParser.m; sourceTree = "<group>"; };
+		365AC5DF18076A15008A5413 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = ../SBJsonStreamParser.h; sourceTree = "<group>"; };
+		365AC5E018076A15008A5413 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = ../SBJsonStreamParser.m; sourceTree = "<group>"; };
+		365AC5E118076A15008A5413 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = ../SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		365AC5E218076A15008A5413 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = ../SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		365AC5E318076A15008A5413 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = ../SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		365AC5E418076A15008A5413 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = ../SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		365AC5E518076A15008A5413 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = ../SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		365AC5E618076A15008A5413 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = ../SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		365AC5E718076A15008A5413 /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamTokeniser.h; path = ../SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		365AC5E818076A15008A5413 /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamTokeniser.m; path = ../SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		365AC5E918076A15008A5413 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = ../SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		365AC5EA18076A15008A5413 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = ../SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		365AC5EB18076A15008A5413 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = ../SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		365AC5EC18076A15008A5413 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = ../SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		365AC5ED18076A15008A5413 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = ../SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		365AC5EE18076A15008A5413 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = ../SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		365AC5EF18076A15008A5413 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = ../SBJsonWriter.h; sourceTree = "<group>"; };
+		365AC5F018076A15008A5413 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = ../SBJsonWriter.m; sourceTree = "<group>"; };
+		365AC5F118076A15008A5413 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		365AC5F218076A15008A5413 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +190,7 @@
 				365AC57A18076993008A5413 /* JWViewController.h */,
 				365AC57B18076993008A5413 /* JWViewController.m */,
 				365AC57D18076993008A5413 /* Images.xcassets */,
+				365AC5A018076A15008A5413 /* Country Hunt */,
 				365AC56C18076993008A5413 /* Supporting Files */,
 			);
 			path = "Country Hunt iPad";
@@ -150,6 +223,77 @@
 				365AC58D18076993008A5413 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		365AC5A018076A15008A5413 /* Country Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				365AC5A118076A15008A5413 /* ActionSheetPicker.h */,
+				365AC5A418076A15008A5413 /* Default.png */,
+				365AC5A518076A15008A5413 /* Default@2x.png */,
+				365AC5A818076A15008A5413 /* JWViewController1.xib */,
+				365AC5AD18076A15008A5413 /* iToast.h */,
+				365AC5AE18076A15008A5413 /* iToast.m */,
+				365AC5B118076A15008A5413 /* JWCountry.h */,
+				365AC5B218076A15008A5413 /* JWCountry.m */,
+				365AC5B318076A15008A5413 /* JWGeoGame.h */,
+				365AC5B418076A15008A5413 /* JWGeoGame.m */,
+				365AC5B518076A15008A5413 /* JWViewController1.h */,
+				365AC5B618076A15008A5413 /* JWViewController1.m */,
+				365AC5B818076A15008A5413 /* objc */,
+				365AC5CE18076A15008A5413 /* Pickers */,
+				365AC5F118076A15008A5413 /* TPKeyboardAvoidingTableView.h */,
+				365AC5F218076A15008A5413 /* TPKeyboardAvoidingTableView.m */,
+			);
+			path = "Country Hunt";
+			sourceTree = "<group>";
+		};
+		365AC5B818076A15008A5413 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				365AC5DC18076A15008A5413 /* SBJson.h */,
+				365AC5DD18076A15008A5413 /* SBJsonParser.h */,
+				365AC5DE18076A15008A5413 /* SBJsonParser.m */,
+				365AC5DF18076A15008A5413 /* SBJsonStreamParser.h */,
+				365AC5E018076A15008A5413 /* SBJsonStreamParser.m */,
+				365AC5E118076A15008A5413 /* SBJsonStreamParserAccumulator.h */,
+				365AC5E218076A15008A5413 /* SBJsonStreamParserAccumulator.m */,
+				365AC5E318076A15008A5413 /* SBJsonStreamParserAdapter.h */,
+				365AC5E418076A15008A5413 /* SBJsonStreamParserAdapter.m */,
+				365AC5E518076A15008A5413 /* SBJsonStreamParserState.h */,
+				365AC5E618076A15008A5413 /* SBJsonStreamParserState.m */,
+				365AC5E718076A15008A5413 /* SBJsonStreamTokeniser.h */,
+				365AC5E818076A15008A5413 /* SBJsonStreamTokeniser.m */,
+				365AC5E918076A15008A5413 /* SBJsonStreamWriter.h */,
+				365AC5EA18076A15008A5413 /* SBJsonStreamWriter.m */,
+				365AC5EB18076A15008A5413 /* SBJsonStreamWriterAccumulator.h */,
+				365AC5EC18076A15008A5413 /* SBJsonStreamWriterAccumulator.m */,
+				365AC5ED18076A15008A5413 /* SBJsonStreamWriterState.h */,
+				365AC5EE18076A15008A5413 /* SBJsonStreamWriterState.m */,
+				365AC5EF18076A15008A5413 /* SBJsonWriter.h */,
+				365AC5F018076A15008A5413 /* SBJsonWriter.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		365AC5CE18076A15008A5413 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				365AC5CF18076A15008A5413 /* AbstractActionSheetPicker.h */,
+				365AC5D018076A15008A5413 /* AbstractActionSheetPicker.m */,
+				365AC5D118076A15008A5413 /* ActionSheetCustomPicker.h */,
+				365AC5D218076A15008A5413 /* ActionSheetCustomPicker.m */,
+				365AC5D318076A15008A5413 /* ActionSheetCustomPickerDelegate.h */,
+				365AC5D418076A15008A5413 /* ActionSheetDatePicker.h */,
+				365AC5D518076A15008A5413 /* ActionSheetDatePicker.m */,
+				365AC5D618076A15008A5413 /* ActionSheetDistancePicker.h */,
+				365AC5D718076A15008A5413 /* ActionSheetDistancePicker.m */,
+				365AC5D818076A15008A5413 /* ActionSheetStringPicker.h */,
+				365AC5D918076A15008A5413 /* ActionSheetStringPicker.m */,
+				365AC5DA18076A15008A5413 /* DistancePickerView.h */,
+				365AC5DB18076A15008A5413 /* DistancePickerView.m */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +373,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365AC5F518076A15008A5413 /* Default@2x.png in Resources */,
 				365AC57E18076993008A5413 /* Images.xcassets in Resources */,
 				365AC57018076993008A5413 /* InfoPlist.strings in Resources */,
+				365AC5F718076A15008A5413 /* JWViewController1.xib in Resources */,
 				365AC57918076993008A5413 /* Main.storyboard in Resources */,
+				365AC5F418076A15008A5413 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +397,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365AC60E18076A15008A5413 /* ActionSheetStringPicker.m in Sources */,
+				365AC60F18076A15008A5413 /* DistancePickerView.m in Sources */,
 				365AC57218076993008A5413 /* main.m in Sources */,
+				365AC61418076A15008A5413 /* SBJsonStreamParserState.m in Sources */,
+				365AC61518076A15008A5413 /* SBJsonStreamTokeniser.m in Sources */,
+				365AC5FC18076A15008A5413 /* JWCountry.m in Sources */,
+				365AC61618076A15008A5413 /* SBJsonStreamWriter.m in Sources */,
+				365AC61718076A15008A5413 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				365AC61118076A15008A5413 /* SBJsonStreamParser.m in Sources */,
 				365AC57C18076993008A5413 /* JWViewController.m in Sources */,
+				365AC5FD18076A15008A5413 /* JWGeoGame.m in Sources */,
+				365AC61818076A15008A5413 /* SBJsonStreamWriterState.m in Sources */,
+				365AC60A18076A15008A5413 /* AbstractActionSheetPicker.m in Sources */,
 				365AC57618076993008A5413 /* JWAppDelegate.m in Sources */,
+				365AC61A18076A15008A5413 /* TPKeyboardAvoidingTableView.m in Sources */,
+				365AC61918076A15008A5413 /* SBJsonWriter.m in Sources */,
+				365AC5FE18076A15008A5413 /* JWViewController1.m in Sources */,
+				365AC61018076A15008A5413 /* SBJsonParser.m in Sources */,
+				365AC60C18076A15008A5413 /* ActionSheetDatePicker.m in Sources */,
+				365AC5FA18076A15008A5413 /* iToast.m in Sources */,
+				365AC60D18076A15008A5413 /* ActionSheetDistancePicker.m in Sources */,
+				365AC61318076A15008A5413 /* SBJsonStreamParserAdapter.m in Sources */,
+				365AC61218076A15008A5413 /* SBJsonStreamParserAccumulator.m in Sources */,
+				365AC60B18076A15008A5413 /* ActionSheetCustomPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +465,14 @@
 				365AC58E18076993008A5413 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		365AC5A818076A15008A5413 /* JWViewController1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				365AC5A918076A15008A5413 /* en */,
+			);
+			name = JWViewController1.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
